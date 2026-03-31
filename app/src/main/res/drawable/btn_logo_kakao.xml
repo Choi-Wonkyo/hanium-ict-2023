@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/btn_logo_kakao2"
+        android:width="45dp"
+        android:height="45dp"
+        />
+
+    <item android:state_enabled="true">
+        <shape>
+            <corners android:radius="7dp">
+
+            </corners>
+        </shape>
+
+    </item>
+
+
+</layer-list>

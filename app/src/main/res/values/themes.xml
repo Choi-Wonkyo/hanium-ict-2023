@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestApiApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF4081</item> <!-- 분홍색 -->
+        <item name="colorPrimaryVariant">#F50057</item> <!-- 분홍색 변형 -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- 텍스트 색상 -->
+        <item name="colorSecondary">#2962FF</item>
+        <item name="colorSecondaryVariant">#0039CB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorError">#F44336</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#212121</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="colorOnBackground">#212121</item>
+        <item name="fontFamily">@font/hakgyoansimbunpilr</item>
+        <item name="android:fontFamily">@font/hakgyoansimbunpilr</item>
+        <item name="materialButtonStyle">@style/AppButton</item>
+        <item name="textInputStyle">@style/AppTextField</item>
+
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+    </style>
+
+    <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/text_field_background</item>
+    </style>
+
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:backgroundStacked">@color/colorPrimary</item>
+        <item name="android:backgroundSplit">@color/colorPrimary</item>
+
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="backgroundStacked">@color/colorPrimary</item>
+        <item name="backgroundSplit">@color/colorPrimary</item>
+    </style>
+
+    <style name="TitleTextStyle"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFA500</item> <!-- 주황색 -->
+    </style>
+
+    <style name="Theme.TestApiApp" parent="Base.Theme.TestApiApp" >
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF4081</item> <!-- 분홍색 -->
+        <item name="colorPrimaryVariant">#F50057</item> <!-- 분홍색 변형 -->
+        <item name="colorOnPrimary">#000000</item> <!-- 검정색 텍스트 -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

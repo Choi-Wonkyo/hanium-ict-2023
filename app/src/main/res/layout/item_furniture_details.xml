@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 이미지뷰를 중앙에 배치 -->
+    <ImageView
+        android:id="@+id/furnitureImage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:contentDescription="Product Image" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <!-- 텍스트뷰들을 차례로 나열 -->
+    <TextView
+        android:id="@+id/furnitureName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="30dp"
+        android:text="Product Name"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/furniturePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="30dp"
+        android:text="Price"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/furnitureManufacture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="30dp"
+        android:text="Manufacture"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/furnitureDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="30dp"
+        android:text="Description"
+        android:textColor="@color/colorBlack"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <!-- 두 개의 버튼을 가로로 나란히 배치 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+<!--        <Button-->
+<!--            android:id="@+id/Try_ar"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Try AR"-->
+<!--            android:textSize="25dp" />-->
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/Favorite"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart_icon_empty"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"/>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+<!--        <Button-->
+<!--            android:id="@+id/Buy_now"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Buy Now"-->
+<!--            android:textSize="25dp" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

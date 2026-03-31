@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E6D6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/analysisButtonLeft7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-400dp"
+            android:layout_marginTop="-1000dp"
+            android:layout_marginBottom="-440dp"
+            android:background="@null"
+            android:onClick="onLeftImageClick"
+            android:src="@drawable/analysis7_6"
+            android:scaleType="fitXY"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="-100dp" />
+
+        <TextView
+            android:id="@+id/analysis_left7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-230dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/hakgyoansimbunpilr"
+            android:text="방"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/analysisButtonRight7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-440dp"
+            android:background="@null"
+            android:onClick="onLeftImageClick"
+            android:rotation="29"
+            android:scaleType="fitXY"
+            android:src="@drawable/analysis7_9"
+            android:layout_marginEnd="-80dp" />
+
+        <TextView
+            android:id="@+id/analysis_Right7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-230dp"
+            android:layout_marginTop="670dp"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/hakgyoansimbunpilr"
+            android:text="클럽"
+            android:layout_centerInParent="true" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/analysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/hakgyoansimbunpilr"
+        android:text="성향분석"
+        android:layout_centerInParent="true" />
+
+</FrameLayout>

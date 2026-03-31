@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="Theme.AndroidAR" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/colorBlack</item> <!-- 힌트 텍스트 색상 변경 -->
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+<!--    <style name="Theme.TestApiApp" parent="Theme.AppCompat.Light.NoActionBar" >-->
+<!--        <item name="colorSurface">@color/gray_900</item>-->
+<!--        <item name="backgroundColor">@android:color/black</item>-->
+<!--        <item name="android:windowBackground">@android:color/black</item>-->
+<!--        <item name="titleTextColor">@android:color/white</item>-->
+<!--    </style>-->
+</resources>
