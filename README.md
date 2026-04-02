@@ -69,6 +69,7 @@ This project is an **AI-AR based smart interior platform** designed to:
 
 ## 2.1 🧩 Architecture Overview  
 
+```
 [ Android App ]
 ↓
 [ Flask Backend Server ]
@@ -76,6 +77,7 @@ This project is an **AI-AR based smart interior platform** designed to:
 [ AI Model (CNN) ]
 ↓
 [ Furniture Recommendation System ]
+```
 
 ---
 
