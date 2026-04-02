@@ -5,8 +5,6 @@
 > 🎓 **An AI + AR-based interior design assistant application**  
 > Automatically analyzes indoor spaces and visualizes furniture placement using augmented reality.
 
----
-
 <br>
 
 # 🏆 Achievements  
