@@ -48,7 +48,7 @@ This project is an **AI-AR based smart interior platform** designed to:
 
 - AI-based space recognition  
 - AR-based furniture placement  
-- Personalized recommendation system  
+- Context-aware recommendation system  
 
 ---
 
@@ -57,7 +57,7 @@ This project is an **AI-AR based smart interior platform** designed to:
 - Develop AI-based **space classification model**  
 - Implement **AR furniture visualization**  
 - Build **Android-based application**  
-- Provide **personalized interior recommendations**
+- Provide **context-aware interior recommendations**
 
 ---
 
@@ -76,7 +76,7 @@ This project is an **AI-AR based smart interior platform** designed to:
 ↓
 [ AI Model (CNN) ]
 ↓
-[ Furniture Recommendation System ]
+[ Furniture Recommendation ]
 ```
 
 ---
