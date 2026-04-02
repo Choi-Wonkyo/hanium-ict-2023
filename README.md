@@ -16,7 +16,6 @@
 - 🏅 Award: **Bronze Prize (Final Winner)**  
 - 📌 Recognized as an outstanding project in AI + AR convergence  
 - 📱 Developed Android-based AR interior application  
-- 🎥 Demo: https://youtu.be/kEw1Z3oz_E0  
 
 ---
 
