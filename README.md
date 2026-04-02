@@ -14,7 +14,7 @@
 **2023 ICT Mentoring Competition**
 
 - 🏅 Award: **Bronze Prize (Final Winner)**  
-- 📌 Recognized as an outstanding project in AI + AR convergence  
+- 📌 Recognized as an AI + AR convergence project 
 - 📱 Developed Android-based AR interior application  
 
 ---
