@@ -1,5 +1,7 @@
 # 🏠 AI-AR Smart Interior Platform  
 
+📅 Project Duration: Mar 2023 – Dec 2023  
+
 > 🎓 **An AI + AR-based interior design assistant application**  
 > Automatically analyzes indoor spaces and visualizes furniture placement using augmented reality.
 
